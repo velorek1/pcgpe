@@ -1,0 +1,44 @@
+/*
+========================================================================
+- HEADER - 
+Module to open a file by showing a dialogue that allows you to navigate 
+through directories with a list with scroll.
+@author : Velorek
+@version : 1.0  
+Last modified: 23/04/2024 Vastly simplified and integraed with lynx
+========================================================================
+*/
+
+#ifndef _MENU_H_
+#define _MENU_H_
+
+/*====================================================================*/
+/* COMPILER DIRECTIVES AND INCLUDES                                   */
+/*====================================================================*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "listc.h"
+#include "rterm.h"
+#include "listc.h"
+#include "keyb.h"
+#include "global.h"
+
+/*====================================================================*/
+/* CONSTANTS */
+/*====================================================================*/
+#define MAX_ITEM_LENGTH 255
+
+
+/*====================================================================*/
+/* CONSTANT VALUES                                                    */
+/*====================================================================*/
+
+/*====================================================================*/
+/* FUNCTION PROTOTYPES                                                */
+/*====================================================================*/
+
+void addItems(LISTCHOICE **listBox1);
+int menu();
+
+#endif
