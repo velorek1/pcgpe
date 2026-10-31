@@ -67,3 +67,11 @@ Conversion tool:
 This repository is an effort to preserve and make the original PCGPE documentation more accessible. The Linux reader and UTF-8 conversion are independent preservation efforts; they do not claim authorship of the original material.
 
 All original work and associated credits belong to Mark Feldman.
+
+## Screenshots
+
+Here are a couple of screenshots showing the current state of the reader.
+
+![PCGPE Reader - Screenshot 1](screencap1.jpg)
+
+![PCGPE Reader - Screenshot 2](screencap2.jpg)
